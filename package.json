@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "description": "That's just a quick start with a TypeScript CLI!",
   "scripts": {
-    "start": "ts-node src/index.ts --help",
-    "test": "jest"
+    "test": "jest",
+    "clean": "rm -rf ./dist",
+    "build": "npm run clean && tsc && chmod +x dist/main.js"
   },
   "repository": {
     "type": "git",
