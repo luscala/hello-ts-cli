@@ -1,0 +1,26 @@
+{
+  "name": "hello-ts-cli",
+  "version": "0.0.1",
+  "description": "That's just a quick start with a TypeScript CLI!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luscala/hello-ts-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luscala/hello-ts-cli/issues"
+  },
+  "homepage": "https://github.com/luscala/hello-ts-cli#readme",
+  "devDependencies": {
+    "chalk": "^5.0.0",
+    "jest": "^27.4.5",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4",
+    "yargs": "^17.3.1"
+  }
+}
